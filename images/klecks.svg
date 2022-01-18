@@ -26,8 +26,8 @@
             <stop offset="1" style="stop-color:#004899;stop-opacity:1"/>
         </linearGradient> -->
         <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(65.8319,108.908,-108.908,65.8319,284.371,119.603)">
-            <stop offset="0" style="stop-color:#7a306c;stop-opacity:1"/>
-            <stop offset="1" style="stop-color:#7a306c;stop-opacity:1"/>
+            <stop offset="0" style="stop-color:#5cb270;stop-opacity:1"/>
+            <stop offset="1" style="stop-color:#5cb270;stop-opacity:1"/>
         </linearGradient>
 
         <filter id="_shadow">
