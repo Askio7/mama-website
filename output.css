@@ -688,6 +688,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-width: 2px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.border-meditieren {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 129 0 / var(--tw-border-opacity));
+}
+
+.border-heilen {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 140 130 / var(--tw-border-opacity));
+}
+
+.border-heilen-4 {
+  --tw-border-opacity: 1;
+  border-color: rgb(92 178 112 / var(--tw-border-opacity));
+}
+
+.border-malen {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 97 183 / var(--tw-border-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -712,6 +744,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-header_image {
   background-image: url(images/_MG_1398.JPG);
+}
+
+.bg-klecks {
+  background-image: url(images/klecks.svg);
 }
 
 .from-\[\#d53369\] {
@@ -748,12 +784,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
-.bg-4\% {
-  background-size: 4%;
+.bg-2\.8\% {
+  background-size: 2.8%;
 }
 
 .bg-bottom {
   background-position: bottom;
+}
+
+.bg-right-top {
+  background-position: right top;
 }
 
 .bg-right {
@@ -837,6 +877,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .font-heading {
   font-family: Dongle, sans-serif;
 }
@@ -875,6 +927,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 129 0 / var(--tw-text-opacity));
 }
 
+.text-malen {
+  --tw-text-opacity: 1;
+  color: rgb(20 97 183 / var(--tw-text-opacity));
+}
+
+.text-heilen-4 {
+  --tw-text-opacity: 1;
+  color: rgb(92 178 112 / var(--tw-text-opacity));
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -884,6 +946,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .shadow-black {
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -941,7 +1012,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .md\:bg-drops {
-    background-image: url(images/drops.svg);
+    background-image: url(images/kleiner_schlonz.svg);
   }
 
   .md\:bg-klecks {
