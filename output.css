@@ -740,14 +740,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #3F8C82;
 }
 
-.to-heilen-2 {
-  --tw-gradient-to: #7a306c;
-}
-
-.to-heilen-3 {
-  --tw-gradient-to: #82c26e;
-}
-
 .to-heilen-4 {
   --tw-gradient-to: #5cb270;
 }
@@ -788,16 +780,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #3F8C82;
 }
 
-.fill-heilen-2 {
-  fill: #7a306c;
-}
-
-.fill-heilen-3 {
-  fill: #82c26e;
-}
-
 .fill-heilen-4 {
   fill: #5cb270;
+}
+
+.fill-heilen-2 {
+  fill: #7a306c;
 }
 
 .p-1 {
